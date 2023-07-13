@@ -1,0 +1,180 @@
+*{
+    background-color:white;
+}
+
+
+.inicio{
+    display: flex;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: end;
+    background-color: black;
+    height: 10%;
+    margin-left: 20%;
+    
+}
+.inicio a{
+    align-items: flex-end;
+    margin: 1%;
+    text-decoration: none;
+    margin-left: 10%;
+    color: white;
+}
+
+
+
+header{
+    display: flex;
+    background-color: black;
+    height: 50px;
+}
+
+
+
+.menu{
+    background-color: black;
+    border: 1px solid green;
+}
+
+.menu p{
+    background-color: yellow;
+    margin: 2%;
+    font-size: x-large;
+}
+.menu img{
+    width: 50%;
+    height: 10%;
+}
+
+.menu-foto{
+    display: flex;
+    background-color: yellow;
+}
+
+.parra{
+    height: 100%;
+    background-color: yellow;
+}
+
+
+.container-formulario{
+    display: flex;
+}
+
+
+
+.textoformu{
+    border-right: 1px solid black;
+    width: 50%;
+}
+.formu{
+    width: 50%;
+    margin-top: 5%;
+    text-align: end;
+
+}
+
+
+#form label{
+    margin-right: 2%;
+    font-size: x-large;
+}
+#form input{
+    background-color:yellow;
+    width: 70%;
+}
+
+footer{
+
+        display: flex;
+        background-color: black;
+        height: 50px;
+
+}
+
+footer p{
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+    .inicio{
+      
+        margin-left: 0%;
+        
+    }
+
+
+
+
+
+    .menu-foto{
+        display: block;
+        background-color: yellow;
+    }
+
+    .menu p{
+        background-color: yellow;
+        margin: 2%;
+        font-size: small;
+    }
+    .parr2{
+        display: none;
+    }
+
+    .menu img{
+        width: 100%;
+        height: 100%;
+    }
+    
+   
+    .container-formulario{
+        display: block;
+    }
+    
+    
+    
+    .textoformu{
+        border-right: 0 ;
+        border-bottom: 1px solid black;
+        width: 100%;
+    }
+    .formu{
+        width: 100%;
+        margin-top: 5%;
+        text-align: end;
+    
+    }
+    
+    
+    #form label{
+        margin-right: 2%;
+        margin-top: 2%;
+        font-size: small;
+    }
+    #form input{
+        background-color:yellow;
+        margin-top: 2%;
+        width: 70%;
+    }
+    
+}
+
+@media screen and (max-width: 900px){
+    .parr2{
+        display: none;
+    }
+    .menu p{
+        background-color: yellow;
+        margin: 2%;
+        font-size: large;
+    }
+}

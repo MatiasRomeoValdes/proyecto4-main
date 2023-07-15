@@ -1,7 +1,3 @@
 # proyecto4
 
-proyecto en react js y vite que busca conectar con una base de datos de firebase
-
-es sobre un restaurante maritimo donde los clientes pueden registrarse para reservar una hora 
-
-se ocupo usestate y async en la estrucura del formularío de contacto
+El proyecto busca trabajar con ReactJS y Vite, en donde se crea un formulario con base de datos alojada en Google's FireBase. Se utilizó usestate y async en la estrucura del formulario de reserva.

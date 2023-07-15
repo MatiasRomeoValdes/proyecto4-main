@@ -25,7 +25,7 @@ const Contacto = () => {
           rut,
           telefono
         });
-        alert("Un ejecutivo se contactara para terminar la reserva")
+        alert("Gracias por reservar con nosotros.")
         console.log('Documento creado con ID: ', docRef.id);
         setNombre('');
         setEmail('');
@@ -39,10 +39,8 @@ const Contacto = () => {
   return (
     <div className='container-formulario'>
       <div className='textoformu'>
-        <h1>Cena Privada</h1>
-        <p>Si desean celebrar un evento especial, nuestro restaurante submarino también ofrece una opción de cena privada. Imaginen una cena romántica bajo el agua con su ser querido, rodeados de la belleza natural del océano. Este será un recuerdo que durará para toda la vida.</p>
-        <p>No esperen más y hagan una reserva para experimentar una aventura culinaria inolvidable en nuestro restaurante submarino.</p>
-        <p>solo registre sus datos y un ejecutico se comunicara con usted</p>
+        <h1>Agenda con anticipación</h1>
+        <p>Nuestras mesas siempre están ocupadas, por lo que rogamos que agenden con anticipación su cena.</p>
       </div>
       <div className='formu'>
         <form id="form" onSubmit={validarFormulario}>
@@ -82,7 +80,7 @@ const Contacto = () => {
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
-          <button type="submit">Quiero reservar</button>
+          <button type="submit">RESERVAR</button>
         </form>
       </div>
     </div>

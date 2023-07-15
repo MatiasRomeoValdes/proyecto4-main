@@ -26,7 +26,7 @@
 
 header{
     display: flex;
-    background-color: black;
+    background-color: rgb(190, 20, 20);
     height: 50px;
 }
 
@@ -38,7 +38,7 @@ header{
 }
 
 .menu p{
-    background-color: yellow;
+    background-color: rgb(1, 141, 36);
     margin: 2%;
     font-size: x-large;
 }
@@ -49,12 +49,12 @@ header{
 
 .menu-foto{
     display: flex;
-    background-color: yellow;
+    background-color: rgb(1, 141, 36);
 }
 
 .parra{
     height: 100%;
-    background-color: yellow;
+    background-color: rgb(1, 141, 36);
 }
 
 
@@ -81,7 +81,7 @@ header{
     font-size: x-large;
 }
 #form input{
-    background-color:yellow;
+    background-color:rgb(173, 173, 173);
     width: 70%;
 }
 
@@ -96,7 +96,7 @@ footer{
 footer p{
     text-align: center;
     width: 100%;
-    background-color: black;
+    background-color: rgb(0, 165, 27);
     color: white;
 }
 

@@ -11,17 +11,17 @@ const App = () => {
 
   return (
 <div className='menu'>
-  <h1>Restaurant</h1>
+  <h1>PIZZA/PASTA</h1>
   <div className='menu-foto'>
-      <img src="https://www.travelreport.mx/wp-content/uploads/2018/06/Restaurantes-bajo-el-mar-IthaaUnderseaRestaurant2.jpg" alt="Restaurant" />
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/1a/16/32/e3/wine-room-dari-ristorante.jpg" alt="Restaurant" />
       <div className='parra'>
-        <p>Bienvenidos al restaurante submarino más espectacular que hayan visto jamás. Sumérjanse en una experiencia culinaria única mientras disfrutan de la belleza del océano. Este restaurante ha sido diseñado para proporcionar una vista impresionante de la vida marina circundante mientras se deleitan con deliciosos platos de mariscos frescos.</p>
-        <p className='parr2'>El restaurante está ubicado a una profundidad segura de 5 metros debajo del nivel del mar, y cuenta con grandes ventanales de pared a pared que ofrecen vistas panorámicas del agua cristalina y los coloridos corales. El ambiente es mágico, con la luz filtrada del sol que crea reflejos en el agua y una sensación de paz y tranquilidad.</p>
+        <p>Bienvenidos a PIZZA/PASTA, el mejor restaurante</p>
+        <p className='parr2'>El mejor restaurante de comida italiana. Traída por sus dueños, quienes poseen más de 20 años de experiencia en cocina toscana, siciliana y napolitana. Con productos unica y exclusivamente desde las fronteras más locales de Italia, encontrarás una experiencia jamas antes vivida.</p>
   
       </div>
 
   </div>
-  <h1>Restaurant</h1>
+  <h1>PIZZA/PASTA</h1>
 </div>
   )
 
